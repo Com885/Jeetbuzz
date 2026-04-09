@@ -1,2 +1,79 @@
-# Jeetbuzz
-jzb1203.live/af/ktcw795J/Login
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Platform</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: #262626;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            width: 90%;
+            max-width: 400px;
+        }
+        h1 {
+            color: #fb8c00;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+            display: block;
+        }
+        .login-btn {
+            background-color: #444;
+            color: white;
+        }
+        .signup-btn {
+            background-color: #fb8c00;
+            color: white;
+        }
+        .btn:hover {
+            opacity: 0.8;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>স্বাগতম!</h1>
+        <p>আপনার অ্যাকাউন্টে প্রবেশ করতে নিচের বাটনে ক্লিক করুন।</p>
+        
+        <div class="btn-container">
+            <a href="https://jzb1203.live/af/ktcw795J/Login" class="btn signup-btn">সাইন আপ</a>
+            <a href="https://jzb1203.live/af/ktcw795J/Login" class="btn login-btn">লগইন</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
